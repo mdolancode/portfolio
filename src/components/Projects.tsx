@@ -78,7 +78,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
   return (
     <div
       ref={cardRef}
-      className="group relative flex flex-col gap-4 p-9 overflow-hidden transition-colors duration-250"
+      className="group relative flex flex-col gap-6 p-11 overflow-hidden transition-colors duration-250"
       style={{ background: 'var(--color-bg2)' }}
       onMouseEnter={(e) => {
         e.currentTarget.style.background = 'var(--color-surface)'
