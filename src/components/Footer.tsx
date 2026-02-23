@@ -3,7 +3,7 @@
 export default function Footer() {
   return (
     <footer
-      className="flex justify-between items-center px-12 py-10"
+      className="flex flex-col gap-1 md:flex-row md:justify-between md:items-center px-6 py-8 md:px-12"
       style={{
         background: 'var(--color-bg)',
         borderTop: '1px solid var(--color-border)',
