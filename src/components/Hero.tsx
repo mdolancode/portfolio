@@ -128,7 +128,7 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div
-        className="absolute bottom-10 left-12 flex items-center gap-3 font-mono text-[0.65rem] tracking-[0.15em] uppercase"
+        className="hidden md:flex absolute bottom-10 left-12 items-center gap-3 font-mono text-[0.65rem] tracking-[0.15em] uppercase"
         style={{ color: 'var(--color-text-dim)' }}
       >
         <span
