@@ -131,7 +131,6 @@ export default function Hero() {
         className="absolute bottom-10 left-12 flex items-center gap-3 font-mono text-[0.65rem] tracking-[0.15em] uppercase"
         style={{ color: 'var(--color-text-dim)' }}
       >
-        Scroll
         <span
           className="block w-px"
           style={{
@@ -140,6 +139,7 @@ export default function Hero() {
               'linear-gradient(to bottom, var(--color-text-dim), transparent)',
           }}
         />
+        Scroll
       </div>
     </section>
   )
