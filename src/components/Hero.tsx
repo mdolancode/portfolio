@@ -21,7 +21,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-center px-12 pt-32 pb-20 overflow-hidden"
+      className="relative min-h-screen flex flex-col justify-center px-12 pt-20 pb-20 md:pt-32 overflow-hidden"
     >
       {/* Background vertical lines */}
       {[15, 55, 85].map((left) => (
