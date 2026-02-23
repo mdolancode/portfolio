@@ -3,20 +3,20 @@
 import { useEffect, useRef } from 'react'
 
 const experience = [
+    {
+    year: '02.2018-Present',
+    role: 'Independent App Developer',
+    company: 'Self — App Store',
+  },
   {
-    year: '2022',
+    year: '03.2022-02.2023',
     role: 'iOS Developer',
     company: "Bally's Interactive",
   },
   {
-    year: '2021',
+    year: '12.2019-12.2020',
     role: 'iOS Developer',
     company: 'Rivian',
-  },
-  {
-    year: '2018–',
-    role: 'Independent App Developer',
-    company: 'Self — App Store',
   },
 ]
 
@@ -36,6 +36,10 @@ const skillGroups = [
   {
     label: 'Architecture',
     skills: ['MVVM', 'MVC', 'Coordinators', 'async/await', 'SwiftLint'],
+  },
+  {
+    label: 'Testing',
+    skills: ['XCTest', 'Jest'],
   },
 ]
 
@@ -99,24 +103,17 @@ export default function About() {
           </h2>
 
           <div className="space-y-5 text-[0.95rem] leading-[1.85]" style={{ color: 'var(--color-text-muted)' }}>
-            <p>
-              I&rsquo;m a <strong style={{ color: 'var(--color-text)', fontWeight: 500 }}>full-stack and mobile developer</strong> based
-              in Vancouver with a background that spans iOS, React Native, Rails, and Python. I&rsquo;ve built
-              production apps used by thousands of people, worked on{' '}
-              <em style={{ color: 'var(--color-amber)', fontStyle: 'normal' }}>Rivian</em> and{' '}
-              <em style={{ color: 'var(--color-amber)', fontStyle: 'normal' }}>Bally&rsquo;s Interactive</em> iOS
-              teams, and shipped independent apps to the App Store.
-            </p>
-            <p>
-              My time at Rivian introduced me to advanced iOS architecture &mdash; Combine, MVVM, Coordinator
-              patterns, and BLE integration &mdash; early in my career. At Bally&rsquo;s I worked on a
-              high-traffic gaming platform where stability and code quality were non-negotiable.
-            </p>
-            <p>
-              Outside of work I&rsquo;m a <strong style={{ color: 'var(--color-text)', fontWeight: 500 }}>DJ and electronic music producer</strong>,
-              which informs a lot of what I build. Detroit-909, MixVault, and Organize By Genre all started
-              because I needed a tool that didn&rsquo;t exist. That&rsquo;s usually my best motivation.
-            </p>
+           <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.25rem' }}>
+            I'm a <em style={{ color: 'var(--color-amber)', fontStyle: 'normal' }}>DJ and electronic music producer</em> first — and a developer by extension of that. When the tools I needed didn't exist, I built them. That's how Detroit-909, MixVault, and Organize By Genre came to life.
+           </p>
+           <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.25rem' }}>
+            Professionally I'm a <strong style={{ color: 'var(--color-text)', fontWeight: 500 }}>full-stack and mobile developer</strong> based in Vancouver with experience across iOS, React Native, Rails, and Python. I've worked on the{' '}
+            <em style={{ color: 'var(--color-amber)', fontStyle: 'normal' }}>Rivian</em> and{' '}
+            <em style={{ color: 'var(--color-amber)', fontStyle: 'normal' }}>Bally's Interactive</em> iOS teams, and shipped independent apps used by tens of thousands of people.
+           </p>
+           <p style={{ color: 'var(--color-text-muted)', marginBottom: '1.25rem' }}>
+            My time at Rivian introduced me to advanced iOS architecture — Combine, MVVM, Coordinator patterns, and BLE integration — early in my career. At Bally's I worked on a high-traffic gaming platform where stability and code quality were non-negotiable.
+          </p>
           </div>
 
           {/* Experience list */}
