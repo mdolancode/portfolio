@@ -62,7 +62,7 @@ export default function Hero() {
             className="font-mono text-[0.7rem] tracking-[0.2em] uppercase"
             style={{ color: 'var(--color-amber)' }}
           >
-            Vancouver, BC &mdash; Open to remote
+            Vancouver, BC &middot; Remote
           </span>
         </div>
 
