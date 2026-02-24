@@ -95,7 +95,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
 
       {/* Tag */}
       <span
-        className="font-mono text-[0.65rem] tracking-[0.15em] uppercase px-2 py-1 w-fit"
+        className="font-mono text-[0.7rem] tracking-[0.15em] uppercase px-2 py-1 w-fit"
         style={{
           color: 'var(--color-amber)',
           border: '1px solid var(--color-amber-dim)',
@@ -125,7 +125,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
         {project.stack.map((tech) => (
           <span
             key={tech}
-            className="font-mono text-[0.6rem] tracking-[0.08em] px-2 py-1"
+            className="font-mono text-[0.7rem] tracking-[0.08em] px-3 py-1"
             style={{
               color: 'var(--color-text-dim)',
               background: 'var(--color-bg3)',
