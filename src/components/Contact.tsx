@@ -167,6 +167,7 @@ export default function Contact() {
                 background: 'var(--color-amber)',
                 color: 'var(--color-bg)',
                 fontWeight: 500,
+                padding: '0.5rem 1rem',
               }}
             >
               {formState === 'sending' ? 'Sending...' : 'Send message →'}
