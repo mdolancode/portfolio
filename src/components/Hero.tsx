@@ -101,6 +101,7 @@ export default function Hero() {
               background: 'var(--color-amber)',
               color: 'var(--color-bg)',
               fontWeight: 500,
+              padding: '0.5rem 1rem',
             }}
           >
             View my work ↓
@@ -111,6 +112,7 @@ export default function Hero() {
             style={{
               color: 'var(--color-text-muted)',
               border: '1px solid var(--color-border)',
+              padding: '0.5rem 1rem',
             }}
             onMouseEnter={(e) => {
               e.currentTarget.style.borderColor = 'var(--color-amber)'
